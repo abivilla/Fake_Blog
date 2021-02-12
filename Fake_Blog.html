@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Blog</title>
+</head>
+<body>
+    <h1>My Blog</h1>
+    <a href="https://www.visitcalifornia.com">
+        <img src="https://www.visitcalifornia.com/sites/visitcalifornia.com/files/NC_DuncansCove_Seeff_1280x642_sized_downsized.jpg" alt="Coast">
+    </a>
+    <h2>Short Intro</h2>
+    <p>Hi, my name is Abimael Villarreal. Currently I am an Amazon warehouse associate participating in the NinjaDojo 
+        course. I am a 27 year old who currently lives in San Antonio, Texas. I graduated from college with an engineering
+        degree and am looking to advance my career into web development through this program. 
+    </p>
+    <div>
+    <h3>Favorite Videogames</h3>
+    <ul>
+        <li>God of War</li>
+        <li>Last of Us</li>
+        <li>Uncharted</li>
+    </ul>
+    </div>
+    <div>
+    <table>
+        <caption>Relatives</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Relation</th>
+                <th>Year born</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jose</td>
+                <td>Father</td>
+                <td>1962</td>
+            </tr>
+            <tr>
+                <td>Concepcion</td>
+                <td>Mother</td>
+                <td>1965</td>
+            </tr>
+            <tr>
+                <td>Kathleen</td>
+                <td>Sister</td>
+                <td>1989</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <p>Please take this quick survey.</p>
+    <form action="process.php" method="POST">
+    <div>
+        Whats your favorite dessert?<br>
+        <select name="favorite_dessert">
+            <option value="cake">Cake</option>
+            <option value="cookie">Cookies</option>
+            <option value="chocolate">Chocolate</option>
+        </select>
+    </div>
+    <div>
+        How did you hear about this website?<br>
+        <input type="checkbox" id="word" value="word">
+        <label for="word">Word of mouth</label><br>
+        <input type="checkbox" id="facebook" value="facebook">
+        <label for="facebook">Facebook</label><br>
+        <input type="checkbox" id="search" value="search">
+        <label for="search">Search engine</label>
+    </div>
+    <div>
+        Did you enjoy the blog?<br>
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" name="choice" value="yes">
+        <label for="no">No</label>
+        <input type="radio" id="no" name="choice" value="no">
+    </div>
+        <label for="email">Your Email</label>
+        <input type="text" id="email" name="email">
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+    </form>
+</body>
+</html>
